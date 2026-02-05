@@ -1,0 +1,52 @@
+name: 🎧 Welcome to Spotify Music Hub
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🎬 Booting welcome screen
+        run: |
+          echo ""
+          echo "Initializing Spotify Music Hub..."
+          sleep 1
+
+          for i in 1 2 3 4 5; do
+            echo "Loading music vibes [$i/5] 🎶"
+            sleep 0.6
+          done
+
+          clear || true
+
+          echo ""
+          echo "███████╗██████╗  ██████╗ ████████╗██╗███████╗██╗   ██╗"
+          echo "██╔════╝██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝╚██╗ ██╔╝"
+          echo "███████╗██████╔╝██║   ██║   ██║   ██║█████╗   ╚████╔╝ "
+          echo "╚════██║██╔═══╝ ██║   ██║   ██║   ██║██╔══╝    ╚██╔╝  "
+          echo "███████║██║     ╚██████╔╝   ██║   ██║██║        ██║   "
+          echo "╚══════╝╚═╝      ╚═════╝    ╚═╝   ╚═╝╚═╝        ╚═╝   "
+          echo ""
+          echo "🎧 Spotify Music Hub"
+          echo "Curated music • Live stats • Auto updates"
+          echo ""
+          sleep 1
+
+          echo "Status: ONLINE ✅"
+          echo "Now playing: good ideas only 🎵"
+          echo ""
+
+      - name: ✨ Welcome message
+        run: |
+          echo "Welcome to the Spotify Music Hub repository!"
+          echo ""
+          echo "• Auto-updating charts"
+          echo "• Clean GitHub-first design"
+          echo "• Powered by Spotify API"
+          echo ""
+          echo "Enjoy exploring the music 🎶"
