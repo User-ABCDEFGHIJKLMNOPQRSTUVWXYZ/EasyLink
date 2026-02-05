@@ -73,6 +73,9 @@ Use the form below to send feedback or requests instantly.
 ---
 
 ## 📬 Direct Email
+## 📩 Where to Send It
+You can send comments and requests to the project owner here:
+
 - **Email:** [frverdead@icloud.com](mailto:frverdead@icloud.com)
 
 ---
